@@ -4,6 +4,24 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" data-precedence="next" href="./dub.sh_files/1ff11408dff5ffce.css">
     <link rel="stylesheet" href="./dub.sh_files/5d975c0173be63ed.css" data-precedence="next">
+    <style>
+        #suggestions {
+            position: absolute;
+            background-color: #ffffff; /* Color de fondo para las sugerencias */
+            border: 1px solid #d1d5db; /* Borde de las sugerencias */
+            border-radius: 4px; /* Borde redondeado para las sugerencias */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Sombra para las sugerencias */
+            
+        
+        }
+
+
+        /* Ajusta el estilo del espacio vacío para que no afecte el despliegue de las sugerencias */
+        .empty-space {
+            height: 140px; /* Ajusta la altura según tus necesidades */
+        }
+    </style>
+    
 </head>
 <body class="__variable_7dbc08 __variable_20951f">
 
@@ -91,9 +109,11 @@
                 </button>
             </div>
         </form>
-        <ul id="suggestions" class="border border-gray-200 mt-2 p-2 rounded-md bg-white"></ul>
+        <ul id="suggestions" class="mx-auto w-full max-w-md px-2.5 sm:px-0"></ul>
     </div>
-      
+    
+
+    <div class="empty-space"></div>
 
 
 
