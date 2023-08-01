@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45b48804-a538-4419-966f-5c63059b4b28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servicio/controllers/ServicioControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servicio/dao/ServicioDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servicio/model/Servicio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servicio/controllers/ServicioControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servicio/controllers/ServicioControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servicio/dao/ServicioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servicio/dao/ServicioDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servicio/model/Servicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servicio/model/Servicio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

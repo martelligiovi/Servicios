@@ -8,7 +8,7 @@ import lombok.NonNull;
 @Table(name = "Servicio")
 @Data
 public class Servicio {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -21,7 +21,7 @@ public class Servicio {
     private String descripcion;
 
     @Column(name = "numeroCelular")
-    private int numeroCelular;
+    private String numeroCelular;
 
     @Column(name = "instagram")
     private String instagram;

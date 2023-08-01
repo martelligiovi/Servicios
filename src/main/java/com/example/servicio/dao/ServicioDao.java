@@ -15,9 +15,6 @@ public class ServicioDao {
     EntityManager entityManager;
     public List<Servicio> getServiciosPorTipo(String tipoServicio) {
         String query = "SELECT s FROM Servicio s WHERE s.tipoServicio = :tipoServicio";
-
-
-
-        return null;
+        return entityManager.createQuery(query).getResultList();
     }
 }
